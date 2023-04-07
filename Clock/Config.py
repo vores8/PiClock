@@ -74,7 +74,7 @@ Language = "RU"
 # locale -a
 # to install locales
 # sudo dpkg-reconfigure locales
-DateLocale = 'ru_RU'
+DateLocale = 'ru_RU.utf8'
 
 # Language specific wording
 LPressure = "Давление "
@@ -102,9 +102,9 @@ Lmoon8 = 'Старая'
 # Language specific terms for Tomorrow.io weather conditions
 Ltm_code_map = {
     0: 'Нет данных',
-    1000: 'Ясно, солнечно',
-    1100: 'Ясно',
-    1101: 'Безоблачно',
+    1000: 'Ясно',
+    1100: 'Безоблачно',
+    1101: 'Легкая облачность',
     1102: 'Облачно с прояснениями',
     1001: 'Облачно',
     2000: 'Туман',

@@ -773,7 +773,7 @@ def wxfinished_tm2():
                 Qt.SmoothTransformation))
             wx = fl.findChild(QtWidgets.QLabel, 'wx')
             day = fl.findChild(QtWidgets.QLabel, 'day')
-            day.setText('{0:%A %I:%M%p}'.format(dt))
+            day.setText('{0:%A %H:%M}'.format(dt))
             s = ''
             pop = float(f['values']['precipitationProbability'])
             ptype = f['values']['precipitationType']
